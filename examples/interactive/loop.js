@@ -25,7 +25,7 @@ function loop(){
 					radius:4,
 					isolevel:0.2,
 					resolution:10,
-					material: new THREE.MeshPhongMaterial( { color: cyan, wireframe: true} ),
+					material: new THREE.MeshPhongMaterial( { color: 'cyan', wireframe: true} ),
 
 				}
 			);
