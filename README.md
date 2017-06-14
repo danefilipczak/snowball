@@ -39,7 +39,7 @@ All parameters are optional - relatively sensible default values will be calcula
 ## adding vectors  
 Snowball calculates and updates the size of its voxel field as necessary based on the vectors it's been passed. Add a vector:
 ````javascript
-snowball.add(new THREE.Vector3(0, 0, 0));
+snowball.add(new THREE.Vector3(x, y, z));
 
 ````
 
