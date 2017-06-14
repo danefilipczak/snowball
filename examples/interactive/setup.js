@@ -21,7 +21,7 @@ window.onload = function(){
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	document.body.appendChild( renderer.domElement );
 	renderer.domElement.style = "position:fixed; top:0px; left:0px"
-	renderer.domElement.addEventListener("mousemove", function(){
+	renderer.domElement.addEventListener("mousemove", function(event){
 		mouseX = event.clientX;
 		mouseY = event.clientY
 	});
