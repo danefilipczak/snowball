@@ -17,15 +17,16 @@ for (var i = 0; i < 10; i++){
     Math.random()*10,
     Math.random()*10,
     Math.random()*10
-  ), {
+  ); 
+};
+
+var snowball = new Snowball(vectors,{
     radius:2,
     isolevel:0.2,
     resolution:20,
     material: new THREE.MeshBasicMaterial({wireframe: true})
   }
-}
-
-var snowball = new Snowball(vectors);
+ );
 ````
 ... then access its mesh and add it to your scene.
 ````javascript
