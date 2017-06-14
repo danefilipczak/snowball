@@ -20,6 +20,7 @@ for (var i = 0; i < 10; i++){
   ), {
     radius:2,
     isolevel:0.2,
+    resolution:20,
     material: new THREE.MeshBasicMaterial({wireframe: true})
   }
 }
@@ -31,6 +32,8 @@ var snowball = new Snowball(vectors);
 scene.add(snowball.mesh);
 
 ````
+All parameters are optional - relatively sensible default values will be calculated if they're left out. 
+
 
 
 ## adding vectors  
