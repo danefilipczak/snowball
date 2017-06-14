@@ -2,7 +2,7 @@
 A simple to use isosurfacing plugin for Three.js. It calculates the annoying stuff for you and takes care of updating geometry. 
 
 Examples [
-[interactive](https://www.google.com)
+[interactive](https://www.danefilipczak.github.io/snowball/examples/interactive)
 ]
 ## initializing 
 
