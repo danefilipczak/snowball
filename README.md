@@ -41,5 +41,6 @@ Snowball calculates and updates the size of its voxel field as necessary based o
 ````javascript
 snowball.add(new THREE.Vector3(0, 0, 0));
 
-  
-  
+````
+
+much more to do. keep in touch with any suggestions/comments. <3 dane
