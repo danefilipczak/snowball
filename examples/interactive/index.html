@@ -1,0 +1,69 @@
+<html>
+
+<script src = "libs/three.min.js"></script>
+<script src = "setup.js"></script>
+<script src = "loop.js"></script>
+<script src = "Snowball.js"></script>
+<!-- <script src = "MarchingCubesData.js"></script> -->
+<head>
+
+	<style>
+	
+
+	#controls{
+		z-index:1;
+		font-family:monospace;
+		position:fixed;
+		left:0px;
+		top:0px%;
+		margin-left:3px;
+		width:100%;
+		text-align:center;
+	}
+	</style>
+
+</head>
+
+<body>
+	<div id = "controls">
+
+click & drag
+
+<input type = "checkbox" checked = "true" onchange = "toggleWireframe()"> wireframe</input>
+<script>
+function toggleWireframe(){
+	snowball.mesh.material.wireframe = !snowball.mesh.material.wireframe;
+}
+</script>
+
+<button onclick = "reset()">reset</button>
+
+<script>
+function reset(){
+	scene.remove(snowball.mesh);
+	delete snowball;
+	snowball = null;
+}
+</script>
+
+
+
+<script>
+
+		
+
+			var render = function () {
+				requestAnimationFrame( render );
+
+				loop();
+
+				renderer.render(scene, camera);
+			};
+
+			//render();
+</script>
+
+		
+	
+</body>
+
