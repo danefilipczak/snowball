@@ -34,14 +34,9 @@ scene.add(snowball.mesh);
 
 
 ## adding vectors  
-Snowball calculates and updates the size of its voxel field as necessary based on the vectors it's been passed. Add a single vector or an array of vectors like this:
+Snowball calculates and updates the size of its voxel field as necessary based on the vectors it's been passed. Add a vector:
 ````javascript
 snowball.add(new THREE.Vector3(0, 0, 0));
-snowball.add([
-  new THREE.Vector3(1, 0, 0),
-  new THREE.Vector3(1, 0, 0),
-  new THREE.Vector3(1, 0, 0),
-  
-]);
+
   
   
